@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dojo Survey Index</title>
+    <!-- <link rel="stylesheet" style="text/css" href="style1.css"> -->
+        {% load static %}
+        <link rel="stylesheet" href="{% static 'survey/css/result_style.css' %}" media="screen" title="no title"  charset="utf-8">
+    </head>
+<body>
+    <p>you have submitted this form {{request.session.num}}</p>
+    <div id="wrapper">
+        <h1>Submitted Info</h1>
+        <p class="para">Name:</p> <p class="values">{{ request.session.name }}</p>
+        <p class="para">Dojo Location: </p> <p class="values">{{request.session.location}}</p>
+        <p class="para">Favorite Language: </p> <p class="values">{{request.session.lang}}</p>
+        <p class="para">Comment: </p> <p class="values">{{request.session.comment}}</p>
+        <form action="/back">
+            <button id="button" type="submit">Go Back</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+#wrapper{
+    width: 700px;
+    height: 640px;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    margin: 50px;
+    border: 2px solid black;
+}
+h1{
+    text-decoration: underline;
+}
+
+.para{
+    width: 240px;
+    font-size: 30px;
+    margin-right: 100px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.values{
+    display: inline-block;
+}
+#button{
+    display: block;
+    position: relative; bottom: -100px; left: 600px;
+}

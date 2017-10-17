@@ -1,0 +1,35 @@
+#wrapper{
+    width: 700px;
+    height: 640px;
+    display: inline-block;
+    padding: 20px;
+    vertical-align: top;
+    margin: 50px;
+    border: 2px solid black;
+}
+.para1{
+    width: 240px;
+    font-size: 30px;
+    display: inline-block;
+}
+.inputs{
+    display: inline-block;
+    width: 265px;
+    margin-left: 175px;
+    height: 30px;
+}
+#comment{
+    display: block;
+    width: 680px;
+    height: 200px;
+}
+
+#optional{
+    width: 300px;
+}
+#button{
+    text-align: center;
+    width: 70px;
+    height: 60px;
+    position: relative; bottom: -20px; left: 610px;
+}
